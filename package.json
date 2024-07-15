@@ -1,0 +1,34 @@
+{
+  "name": "leumas-react-app-library",
+  "version": "1.0.4",
+  "description": "This is for Leumas React App Library API, to embed our apps directly into your react apps. This is a solid demo, as I would love to expand this to suit other things like my html library, python gui library, or other libraries for things like the batc files boilerplates, or smart contract templates etc. The amount of digital assets avaialable to me are unprescedented",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "React",
+    "Leumas",
+    "Library",
+    "Component",
+    "API",
+    "Serve",
+    "JSX",
+    "AS",
+    "API"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.1",
+    "@babel/preset-react": "^7.24.7"
+  }
+}
